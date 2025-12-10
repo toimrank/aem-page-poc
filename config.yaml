@@ -1,0 +1,8 @@
+database:
+  dbname: postgres
+  user: postgres
+  password: admin
+  host: localhost
+
+openai:
+  api_key: <API_KEY>

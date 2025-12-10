@@ -1,0 +1,17 @@
+# Web scraping
+requests
+beautifulsoup4
+python-dateutil
+urllib3
+
+# PostgreSQL
+psycopg2-binary
+
+# OpenAI
+openai
+
+# Streamlit
+streamlit
+
+# Optional
+lxml
