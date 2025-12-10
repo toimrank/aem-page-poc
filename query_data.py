@@ -3,8 +3,9 @@ import openai
 import json
 
 from datetime import datetime
-from database_connector.postgre_connector import get_connection, get_cursor, close_connection, embed_text 
+from database_connector.postgre_connector import get_db_connection, get_cursor
 from config.config_loader import OPENAI_CONFIG
+from utils.utils import embed_text
 
 openai.api_key = OPENAI_CONFIG["api_key"]
 
@@ -19,7 +20,7 @@ def safe_date(value):
         return None
     return value
 
-conn = get_connection()
+conn = get_db_connection()
 cursor = get_cursor(conn)
 
 def search_similar_pages(query_embedding):
