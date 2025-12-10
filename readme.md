@@ -52,6 +52,7 @@ Additional commands to:
     Delete all rows from table
         DELETE FROM amex_pages;
 
+
 **PostGreSQLTABLE:**
 
 <img width="926" height="397" alt="image" src="https://github.com/user-attachments/assets/905a40b5-de7e-4e5d-a67b-7c4453e4c145" />
