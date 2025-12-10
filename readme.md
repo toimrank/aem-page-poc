@@ -3,10 +3,12 @@ Steps for execution:
 1. Run below command to install all required library present in requirements.txt:
 pip install -r requirements.txt
 
+2. Update OpenAI API key insideconfig.yaml file and PostGre vector database details inside 'config.yaml' file.
+
 2. Run 'data_scrap.py' file first using below command, to scrap content from the given URL's and generate JSON and save in data.json
 python data_scrap.py
 
-3. Setup Postgre Vector database and create table using below query:
+4. Setup Postgre Vector database and create table using below query:
 
 """
     CREATE TABLE amex_pages (
@@ -35,9 +37,9 @@ python data_scrap.py
     );
 """
 
-4. Run 'insert_data.py' file to read data.json, create embeddings and insert same  in Postgre vector database.
+5. Run 'insert_data.py' file to read data.json, create embeddings and insert same  in Postgre vector database.
 
-5. Start Streamlit application using below command:
+6. Start Streamlit application using below command:
 streamlit run query_data.py
 
 
