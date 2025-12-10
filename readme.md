@@ -61,3 +61,9 @@ Additional commands to:
 
 <img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/72443c17-84c9-41ab-b6fa-6f30fa4402d8" />
 
+
+**OUTPUT:**
+
+<img width="1093" height="615" alt="image" src="https://github.com/user-attachments/assets/5d636a3e-33ff-4596-9503-ab77c9d5099b" />
+
+
